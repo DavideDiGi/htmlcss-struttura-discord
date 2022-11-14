@@ -4,3 +4,48 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.debug header{
+    max-width: 100vw;
+    height: 80px;
+    background-color:lightblue;
+    display: flex;
+}
+.debug .flexbox-container{
+    width: 80%;
+    margin: auto;
+    display: flex;  
+    font-size: 18px;  
+}
+.debug .logo, .debug nav, .debug .login{
+    background-color: orange;
+    border: 1px dashed black;
+    padding: 5px;
+}
+.debug .logo{
+    width: 15%;
+    text-align: left;
+}
+.debug nav{
+    width: 70%;
+    text-align: center;
+}
+.debug .login{
+    width: 15%;
+    text-align: right;
+}
+.debug header nav>ul>li{
+    display: inline-block;
+}
