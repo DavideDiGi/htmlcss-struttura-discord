@@ -61,13 +61,54 @@ header nav>ul>li{
     
 }
 .container{
-    width: 80%;
-    
-    
-    /* margin: auto; */
-    /* display: flex;
+    width: 80%;    
+}
+.whitebg{
+    background-color: white;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
+    
+}
+.flex.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px 50px 0px;
+}
+.flex.container div{
+    height: 450px;
+    border: 2px dashed black;
+    
+}
+.son{
+    width: 60%;
+    background-color: dodgerblue;
+    
+}
+.daughter{
+    width: 40%;
+    background-color: pink;
+}
+.greybg{
+    background-color:lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+}
+.green{
+    width: 100%;
+    background-color: green;
+    
+}
+.flex.container>.green{
+    height: 800px;
 }
 
 
@@ -125,7 +166,7 @@ header nav>ul>li{
     width: 80%;
     margin: auto;
 } */
-.debug .whitebg{
+/* .debug .whitebg{
     background-color: white;
     display: flex;
     justify-content: center;
@@ -157,4 +198,18 @@ header nav>ul>li{
     display: flex;
     justify-content: center;
     align-items: center;
+} */
+/* .last-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
 }
+.debug .green{
+    width: 100%;
+    background-color: green;
+    
+}
+.flex.container>.green{
+    height: 800px;
+} */
