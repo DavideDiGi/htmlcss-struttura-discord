@@ -76,7 +76,7 @@ header nav>ul>li{
     align-items: center;
     padding: 50px 0px 50px 0px;
 }
-.flex.container div{
+.flex.container div:not(.footer-nav-container){
     height: 450px;
     border: 2px dashed black;
     
@@ -108,108 +108,55 @@ header nav>ul>li{
     
 }
 .flex.container>.green{
-    height: 800px;
+   min-height: 900px;
 }
-
-
-
-
-
-/* 
-
-.debug header{
-    max-width: 100vw;
-    height: 80px;
-    background-color:lightblue;
+footer{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(36, 39, 42);
+    border-bottom: 1px solid white;
 }
-.debug .small.container{
-    display: flex;  
-    font-size: 18px;  
+
+.contacts{
+    width: 30%;
+    background-color: rgb(225, 134, 131);
 }
-.debug .logo, .debug nav, .debug .login{
-    background-color: orange;
-    border: 1px dashed black;
-    padding: 5px;
-}
-.debug .logo{
-    width: 15%;
-    text-align: left;
-}
-.debug nav{
+.links{
     width: 70%;
-    text-align: center;
+    background-color: rgb(85, 175, 169);
 }
-.debug .login{
-    width: 15%;
-    text-align: right;
-}
-.debug header nav>ul>li{
-    display: inline-block;
-} */
-/* .debug .first-page{
+.flex.container>.contacts{
     height: 500px;
-    background-color: rgb(25, 25, 143);
-    display: flex;
-    border-bottom: 3px solid lightblue;
 }
-.debug .jumbotron{
-    height: 400px;
-    width: 80%;
-    margin: auto;
-    background-color: plum;
-    border: 1px dashed black;
-    border-radius: 5px;
-    
+.flex.container>.links{
+    height: 500px;
+    display: flex;    
 }
-.debug .container{
-    width: 80%;
-    margin: auto;
-} */
-/* .debug .whitebg{
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.tall{
+    width: 25%;
+    height: 100%;
 }
-.debug .flex.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 0px 50px 0px;
+.flex.container>.links div{
+    border: 2px dashed white;
 }
-.debug .flex.container div{
-    height: 450px;
-    border: 2px dashed black;
-    
-}
-.debug .son{
-    width: 60%;
-    background-color: dodgerblue;
-    
-}
-.debug .daughter{
-    width: 40%;
-    background-color: pink;
-}
-.debug .greybg{
-    background-color:lightgrey;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-/* .last-page{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: lightgrey;
-}
-.debug .green{
+.footer-nav-container{
     width: 100%;
-    background-color: green;
-    
+    height: 20px;
+
 }
-.flex.container>.green{
-    height: 800px;
-} */
+.flex.container>.footer-nav-container div{
+    height: 70px;
+    background-color: rgb(160, 252, 214);
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex.container>.footer-nav-container>.footer-nav div{
+    height: 30px;
+    font-size: 18px;
+    padding: 5px;        
+    background-color: rgb(244, 185, 193);
+    border: 2px dashed black;    
+}
