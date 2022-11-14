@@ -9,10 +9,14 @@ header{
     height: 80px;
     background-color:lightblue;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .small.container{
-    display: flex;  
-    font-size: 18px;  
+    font-size: 18px; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 .logo, nav, .login{
     background-color: orange;
@@ -34,16 +38,23 @@ nav{
 header nav>ul>li{
     display: inline-block;
 }
+.first.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .first-page{
     height: 500px;
     background-color: rgb(25, 25, 143);
     display: flex;
+    justify-content: center;
+    align-items: center;
     border-bottom: 3px solid lightblue;
 }
 .jumbotron{
+    
     height: 400px;
     width: 80%;
-    margin: auto;
     background-color: plum;
     border: 2px dashed black;
     border-radius: 5px;
@@ -51,7 +62,12 @@ header nav>ul>li{
 }
 .container{
     width: 80%;
-    margin: auto;
+    
+    
+    /* margin: auto; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 
 
@@ -111,18 +127,26 @@ header nav>ul>li{
 } */
 .debug .whitebg{
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 .debug .flex.container{
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 50px 0px 50px 0px;
 }
 .debug .flex.container div{
     height: 450px;
     border: 2px dashed black;
+    
 }
 .debug .son{
     width: 60%;
     background-color: dodgerblue;
+    
 }
 .debug .daughter{
     width: 40%;
@@ -130,4 +154,7 @@ header nav>ul>li{
 }
 .debug .greybg{
     background-color:lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
