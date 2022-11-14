@@ -23,9 +23,7 @@
     background-color:lightblue;
     display: flex;
 }
-.debug .flexbox-container{
-    width: 80%;
-    margin: auto;
+.debug .small.container{
     display: flex;  
     font-size: 18px;  
 }
@@ -48,4 +46,21 @@
 }
 .debug header nav>ul>li{
     display: inline-block;
+}
+.debug .first-page{
+    height: 500px;
+    background-color: rgb(25, 25, 143);
+    display: flex;
+}
+.debug .jumbotron{
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    background-color: plum;
+    border: 1px dashed black;
+    
+}
+.debug .container{
+    width: 80%;
+    margin: auto;
 }
